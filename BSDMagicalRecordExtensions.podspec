@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files       = "MagicalRecordExtensions/NSManagedObject+BSDMagicalRecordExtensions.{h,m}"
   s.framework          = "UIKit"
   s.requires_arc       = true
-  s.dependency 'MagicalRecord', :git => 'https://github.com/magicalpanda/MagicalRecord.git', :tag => 'v2.3.0-beta.5'
+  s.dependency 'MagicalRecord'
 end
